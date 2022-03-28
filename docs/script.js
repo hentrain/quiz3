@@ -11,8 +11,8 @@ function staticLoadPlaces() {
         {
             name: 'MyModel',
             location: {
-                lat: <your-latitude>,
-                lng: <your-longitude>,
+                lat: 51.0491,
+                lng: -0.723,
             }
         },
     ];
@@ -45,4 +45,3 @@ function renderPlaces(places) {
         scene.appendChild(model);
     });
 }
-https://hentrain.github.io/quiz3/
